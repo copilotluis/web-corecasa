@@ -4,11 +4,10 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/WebCorecasa/',
+  base: '/web-corecasa/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: './' // Importante para GitHub Pages
 })
