@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/web-corecasa/',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
